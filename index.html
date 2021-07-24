@@ -10,7 +10,39 @@
   <body>
     <div class="payment">
       <div class="bg"></div>
-      <div class="card"></div>
+      <div class="card">
+        <img
+          src="https://media.istockphoto.com/vectors/chip-icon-for-bank-plastic-credit-or-debit-charge-card-vector-vector-id1151397537?k=6&m=1151397537&s=612x612&w=0&h=RlNf_payM_IvUz7AwRVlYzC2rCRSXjGaZXE17E7-n0Y="
+          class="chip"
+        />
+        <div class="logo"></div>
+        <h2 class="bankName" contenteditable="true">Bank Name</h2>
+        <form>
+          <div class="inputBox">
+            <span>Card No.</span>
+            <input
+              type="text"
+              placeholder="0123 4567 8901 2345"
+              maxlength="19"
+            />
+          </div>
+          <div class="inputBox">
+            <span>Card Holder</span>
+            <input type="text" placeholder="John Doe" />
+          </div>
+          <div class="group">
+            <div class="inputBox">
+              <span>Expires</span>
+              <input type="text" placeholder="MM/YY" maxlength="5" />
+            </div>
+            <div class="inputBox">
+              <span>CCV</span>
+              <input type="password" placeholder="***" maxlength="4" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <button class="btn">Confirm & Pay</button>
     </div>
   </body>
 </html>
