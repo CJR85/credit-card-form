@@ -14,3 +14,32 @@ body {
   min-height: 100vh;
   background: linear-gradient(#73c1ff, #fff);
 }
+
+.payment {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.payment .bg {
+  position: absolute;
+  bottom: 0;
+  height: 70%;
+  width: 100%;
+  border-radius: 25px;
+  background: linear-gradient(225deg, #2196f3, #ff4efd);
+}
+
+.payment .card {
+  position: relative;
+  width: 500px;
+  height: 350px;
+  background: #fcfcfc;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
