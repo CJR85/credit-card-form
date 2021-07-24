@@ -23,7 +23,14 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 0px;
+  transform: translateY(-63px);
+  transition: 0.5s;
+}
+
+.payment:hover {
   padding: 40px;
+  transform: translateY(0);
 }
 
 .payment .bg {
@@ -45,6 +52,12 @@ body {
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5);
   z-index: 1000;
   overflow: hidden;
+  transform: translateY(127px);
+  transition: 0.5s;
+}
+
+.payment:hover .card {
+  transform: translateY(0);
 }
 
 .payment .card::before {
